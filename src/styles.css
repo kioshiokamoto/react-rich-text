@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.App-header {
+	background-color: #282c34;
+	min-height: 5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	margin-bottom: 5vh;
+	text-align: center;
+}
+.wrapper-class {
+	padding: 1rem;
+	border: 1px solid #ccc;
+}
+.editor-class {
+	background-color: rgb(236, 236, 236);
+	padding: 1rem;
+	border: 1px solid #ccc;
+}
+.toolbar-class {
+	border: 1px solid #ccc;
+}
+
+.preview {
+	padding: 1rem;
+	margin-top: 1rem;
+}
