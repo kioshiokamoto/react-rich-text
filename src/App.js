@@ -26,7 +26,7 @@ const App = () => {
 		};
 	};
 
-	//Para subir imagen!
+	//Para subir imagen! -- Documentacion
 	function uploadImageCallBack(file) {
 		return new Promise((resolve, reject) => {
 			const xhr = new XMLHttpRequest();
@@ -63,6 +63,10 @@ const App = () => {
 					history: { inDropdown: true },
 					image: { uploadCallback: uploadImageCallBack, alt: { present: true, mandatory: true } },
 				}}
+				localization={{
+					locale: 'es',
+				  }}
+				
 			/>
 
 			<div className="preview" dangerouslySetInnerHTML={createMarkup(convertedContent)}></div>
