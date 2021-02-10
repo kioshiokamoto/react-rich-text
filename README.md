@@ -2,7 +2,7 @@
 
 Desarrollado con React y modulos: draft-js, react-draft-wysiwyg, draft-convert y dompurify
 
-![Demo aplicativo](./preview.png)
+![Demo aplicativo](./preview.JPG)
 
 Para instalar aplicacion ejecutar:
 
